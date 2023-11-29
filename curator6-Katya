@@ -1,0 +1,6 @@
+[program:curator6-Katya]
+command=python3 /home/curator6/curator6-Katya/main.py
+autostart=true
+autorestart=true
+stderr_logfile=/home/curator6/curator6-Katya/test.err.log
+stdout_logfile=/home/curator6/curator6-Katya/test.out.log
